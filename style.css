@@ -1,0 +1,83 @@
+article{
+    padding-bottom: 50px;
+}
+.btn-custom{
+    background-color: #d8794a;
+    color:#fff;
+}
+.btn-custom:hover{
+    background-color: #000;
+    color:#fff;
+}
+.btn-notes{
+  background-color: #d8794a;
+}
+.btn-quiz{
+  background-color: #000;
+}
+.card-custom{
+        background-color: azure;
+        margin-bottom: 20px;
+}
+
+.flashcard{
+    background: #fff;
+    padding: 50px;
+    height:20vh;
+    border: 1px solid #dbdbdb;
+}
+.flashcard p{
+    margin: 0 auto;
+}
+.sidebar{
+    background-color: rgb(214, 169, 117);
+}
+ul.sidebar li a{
+    color:#fff;
+}
+ul.sidebar li a:hover{
+    color:#f5f5f5;
+}
+ul.sidebar li{
+    border-bottom: 1px solid #f9f9f9;
+    padding: 10px;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
